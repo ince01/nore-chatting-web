@@ -1,0 +1,171 @@
+﻿﻿hr{
+	display: block;
+  	margin-top: 0.5em;
+ 	margin-bottom: 0.5em;
+ 	border-style: inset;
+ 	border-width: 1px;
+}
+
+.bordertit{
+	 text-align:center;
+	 padding:10px;
+}
+
+form input[type=text]
+{
+	width:100%;
+	padding: 10px;
+	font-size: 14px;
+	border: none;
+	background: #f2f2f2;
+	border-radius: 15px;
+}
+
+form input[type=text]{
+	text-align:center;
+}
+.form-control .has-search{
+	padding-left:2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+/*partition*/
+
+.separator{
+	border-right: 1.5px solid #d9d9d9;
+	height:1000px;
+}
+
+.customlistview{
+	padding:5px;
+}
+
+.customlistview imagecontainer{
+	float:left;
+	margin-right:10px;
+}
+.customlistview h4{
+	margin-top:-5px;
+}
+.customlistview p{
+	margin-bottom:-5px;
+	color:#bfbfbf;
+}
+
+.customlistview:hover{
+	background-color:#d9d9d9;
+}
+
+
+.imagecontainer  {
+  position: relative;
+  margin-right:5px;
+  float:left;
+}
+
+
+.online{	
+	 position:relative;
+	 height: 15px;
+	 width: 15px;
+	 background-color: #00ff00;
+	 border-radius: 50%;
+	 display: block;
+	 margin-top:-20%;   
+	 margin-left:67% ;
+	 z-index:2;
+}
+
+.offline{	
+	position:relative;
+	height: 15px;
+	width: 15px;
+	background-color:  #a6a6a6;
+	border-radius: 50%;
+	display: block;
+	margin-top:-20%;   
+	margin-left:67% ;
+	z-index:2;
+}
+
+.textchatbox{
+	position: -webkit-sticky;
+	position: sticky;
+	top:95%;
+	padding: 5px;
+	font-size: 20px;
+}
+
+.textchatbox input::-webkit-input-placeholder{
+	text-align:left;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.img-container {
+	float:right;
+    padding: 5px;
+	position:relative;
+	transform: translate(-50%, -100%);
+}
+
+#main{
+	height:100%;
+	transition: margin-right .2s;
+	padding: 0px;
+}
+i{
+	opacity:.1;
+	color:blue;
+}
+i:hover{
+	opacity: 1.0 !important;
+	font-size:35px;
+}
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.2s;
+  padding-top: 60px;
+  border-left: 2px solid #d9d9d9;
+  
+}
+
+
+
+.sidebar a:hover {
+  color: blue;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+	
